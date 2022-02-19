@@ -1,0 +1,159 @@
+/* Pearl color = #E2DFD2, charcoal color = #0c0d0d, */
+html {
+  margin: 0;
+  min-height: 100%;
+}
+body {
+  margin: 0;
+}
+* {
+  background-color: #0c0d0d;
+  color: #e2dfd2;
+  font-family: "Oswald", "sans-serif";
+}
+button {
+  margin-left: 5px;
+  margin-top: 5px;
+  display: flex;
+  border: none;
+}
+.buttonpic {
+  height: 70px;
+  width: auto;
+  background-color: transparent;
+}
+.navcon {
+  margin-top: 1em;
+  position: block;
+  width: 100%;
+  height: 45%;
+  margin-top: -4vw;
+}
+.navlist {
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+  gap: 20px;
+  list-style-type: none;
+  margin-left: 40%;
+  margin-right: 3vw;
+  position: absolute;
+  right: 0;
+}
+.pagelinkw {
+  background-color: transparent;
+  color: #e2dfd2;
+}
+.pagelinkw:hover {
+  color: #e2dfd2;
+  opacity: 0.5;
+}
+
+.navtop:hover {
+  opacity: 50%;
+}
+a {
+  color: #e2dfd2;
+  text-decoration: none;
+}
+a.link {
+  color: #e2dfd2;
+  text-decoration: none;
+}
+a.active {
+  color: #e2dfd2;
+  text-decoration: none;
+}
+
+.bodycon {
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  align-items: center;
+}
+.heading {
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-top: 40px;
+  display: inline-block;
+  text-align: center;
+}
+.pronou {
+  margin-top: -5px;
+  font-size: 20px;
+}
+.define {
+  font-weight: 200;
+  font-size: 25px;
+  margin-top: 1vw;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.homechemeximg {
+  max-width: 60%;
+  margin-bottom: 5vw;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: transparent;
+  margin-top: 100px;
+}
+.pagelinkb {
+  background-color: transparent;
+  color: inherit;
+}
+.pagelinkb:hover {
+  color: inherit;
+  opacity: 0.5;
+}
+.navconbottom {
+  background-color: #e2dfd2;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  overflow: hidden;
+  margin-top: 5px;
+  align-items: center;
+}
+.navlistbottom {
+  margin-bottom: 1em;
+  color: #e5e7eb;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0;
+  margin: auto;
+  list-style-type: none;
+  background-color: transparent;
+  color: #0c0d0d;
+}
+.navbot {
+  background-color: transparent;
+  color: #0c0d0d;
+}
+.navbot:hover {
+  opacity: 50%;
+}
+
+.email {
+  background-color: transparent;
+  color: #0c0d0d;
+}
